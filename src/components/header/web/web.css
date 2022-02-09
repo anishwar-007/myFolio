@@ -1,0 +1,28 @@
+.web{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.web-options{
+    font-size: 20px;
+    padding-right: 16px;
+    font-weight: 700;
+}
+
+.web-options a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.option-icon{
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+}
+
+.web-options:last-child{
+    padding-right: 0px;
+}

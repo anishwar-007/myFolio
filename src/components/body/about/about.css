@@ -1,0 +1,58 @@
+.about{
+    padding-bottom: 48px;
+}
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-pic{
+    height: 420px;
+}
+
+.about-info{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info-words{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.about-name{
+    font-size: 36px;
+    color: blue;
+}
+
+.airrack{
+    
+    margin-top: 12px;
+    color: coral;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:720px){
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .my-pic{
+        height: 300px;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .about-name{
+        font-size: 26px;
+    }
+    .airrack{
+        font-size: 26px;
+    }
+}
