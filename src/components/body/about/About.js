@@ -18,15 +18,15 @@ function About() {
             <Typical
               loop={Infinity}
               steps={[
-                "Ethusiastic Dev (°□°)",
+                "1- Ethusiastic Dev",
                 1000,
-                "Full Stack Developer (｡^‿^｡) ",
+                "2- Full Stack Developer",
                 1000,
-                "MERN Stack Developer ('^_^')",
+                "3- MERN Stack Developer",
                 1000,
-                "Competitive Programmer (︶︿︶)",
+                "4- Competitive Programmer",
                 1000,
-                "ReactJS Developer (.'ᴗ'.)",
+                "5- ReactJS Developer",
                 1000,
             ]}
             className="airrack"
@@ -35,7 +35,7 @@ function About() {
          </div> 
         </div>
         <div className="about-photo">
-          <img src={require("../../../assets/coder.png")} alt=""
+          <img src={require("../../../assets/coder.jpeg")} alt=""
           className="my-pic" />
         </div>
       </div>
